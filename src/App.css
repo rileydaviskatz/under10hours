@@ -1,0 +1,64 @@
+@font-face {
+    font-family: pixel;
+    src: url(./pixel.TTF);
+}
+
+.imgContainer {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.crt {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.staticgif {
+    position: absolute;
+    height: 1280px;
+    width: 1280px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+#PatreonLink {
+    font-family: pixel;
+    font-size: 30px;
+    position: absolute;
+    color: yellow;
+    top: 700px;
+    left: 200px;
+    z-index: 3;
+    text-decoration: none;
+}
+
+.titleText {
+    position: absolute;
+    font-family: pixel;
+    z-index: 3;
+    align-self: center;
+    top: 200px;
+    left: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    color: yellow;
+    font-size: 70px;
+}
+
+.links {
+    font-family: pixel;
+    background-image: url(./img/polygon.png);
+  
+    height: 100px;
+    width: 375px;
+   
+    background-position: bottom 0px;
+    background-size: cover;
+    z-index: 4;
+ 
+}
