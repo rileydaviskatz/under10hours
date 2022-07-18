@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import TransparentTV from "./img/TransparentTV.png";
+import TransparentTV from "./img/uthcrt.png";
 import staticgif from "./img/static.gif";
 import './App.css';
 
@@ -8,8 +8,8 @@ import './App.css';
 
 
 const App = () => {
-    let links = ['Patreon', 'Twitch', 'Youtube', 'Patreon', 'Twitch', 'Youtube'];
-    let urls = ['https://www.patreon.com/under10hours'];
+    let links = ['YouTube', 'Patreon','T-Shirt', 'Stickers', 'Game Collection', 'Fun' + "\n" + 'Stuff'];
+    let urls = ['https://www.youtube.com/under10hoursgaming','https://www.patreon.com/under10hours', 'https://www.etsy.com/shop/Under10Hours', 'https://www.redbubble.com/people/under10hours/shop'];
 
     const buildGrid = () => (
         links.map((link, i) => (
@@ -17,7 +17,6 @@ const App = () => {
                 <div id='PatreonLink'>
                     <a href={urls[i]}>
                         <div className='link'>{link}</div>
-                    
                     </a>
                 </div>
             </Fragment>
