@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import TransparentTV from "./img/uthcrt.png";
 import staticgif from "./img/static.gif";
+import VideoPlayer from "./components/videoPlayer.jsx";
 import './App.css';
 
 
@@ -28,9 +29,10 @@ const App = () => {
             <img src={TransparentTV} height="100%" className="crt"></img>
             <img src={staticgif}  className="staticgif"></img>
             <h1 className='titleText'>Under10Hours</h1>
-            <div className="grid">
+            <VideoPlayer />
+            {/* <div className="grid">
                 { buildGrid() }
-            </div>
+            </div> */}
         </div>
       );
 };
